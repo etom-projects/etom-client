@@ -63,7 +63,7 @@ class FreshnessSelectionButton extends StatelessWidget {
                       ),
                     ),
                     Visibility(
-                      visible: id == 2,
+                      visible: id == 3,
                       child: ALevelCrewMark(),
                     )
                   ],
@@ -109,11 +109,11 @@ class FreshnessSelectionButton extends StatelessWidget {
   }
 
   String _getTitle(int id) {
-    if (id == 0) {
+    if (id == 1) {
       return "오전 12시-03시";
     }
 
-    if (id == 1) {
+    if (id == 2) {
       return "오전 02시-07시";
     }
 
@@ -121,13 +121,13 @@ class FreshnessSelectionButton extends StatelessWidget {
   }
 
   Widget _getFreshness(int id) {
-    if (id == 0) {
+    if (id == 1) {
       return const FreshnessMark(
         freshness: "A",
       );
     }
 
-    if (id == 1) {
+    if (id == 2) {
       return const FreshnessMark(
         freshness: "B",
       );
@@ -139,11 +139,11 @@ class FreshnessSelectionButton extends StatelessWidget {
   }
 
   String _getFreshnessInfo(int id) {
-    if (id == 0) {
+    if (id == 1) {
       return "통조림, 시리얼 등 가공식품";
     }
 
-    if (id == 1) {
+    if (id == 2) {
       return "샐러드, 간편식 , 베이커리";
     }
 
@@ -151,11 +151,11 @@ class FreshnessSelectionButton extends StatelessWidget {
   }
 
   String _getContent(int id) {
-    if (id == 0) {
+    if (id == 1) {
       return "상온에서 시간이 지나도 상하지 않는 안전한 상품이에요.\n일반 택배배송 차량도 배송이 가능해요.";
     }
 
-    if (id == 1) {
+    if (id == 2) {
       return "빠른시간 내에 배송 받지 않아도 되는\n신선 중요도가 낮은 상품이에요.";
     }
 
