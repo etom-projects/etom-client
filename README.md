@@ -2,9 +2,9 @@
 # etom-client
 ETOM 클라이언트 앱
 =======
-# kurly_hackerton
+# kurly_hackathon
 
-market kurly hackerton
+market kurly hackathon
 
 ## Getting Started
 
